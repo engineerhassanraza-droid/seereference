@@ -118,3 +118,35 @@ svg {
     flex-direction:column;
   }
 }
+
+/* seereference.com Investor Presentation */
+
+.investor-visual-presentation {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.investor-visual-presentation h2 {
+    margin-top: 50px;
+}
+
+.investor-visual {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 30px auto;
+}
+
+.investor-documents {
+    padding: 50px 40px;
+}
+
+.investor-documents ul {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.investor-documents li {
+    margin: 12px 0;
+}
+
