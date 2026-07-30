@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+seereference.com | Investor Presentation
+</title>
+
+<meta name="description"
+content="Investor presentation for seereference.com digital reference intelligence platform.">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
+<link rel="stylesheet"
+href="assets/css/investor/investor.css">
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+<section class="investor-hero">
+
+<h1>
+Invest in the Future of Digital Reference Intelligence
+</h1>
+
+<p>
+seereference.com is developing an AI and augmented reality platform
+connecting physical products with trusted digital information.
+</p>
+
+<img class="investor-visual"
+src="assets/images/investor/hero-investor.svg"
+alt="seereference.com investor vision">
+
+</section>
+
+
+<section class="investor-section">
+
+<h2>
+The Opportunity
+</h2>
+
+<p>
+The world needs better ways to understand, verify, and interact
+with physical products through digital intelligence.
+</p>
+
+</section>
+
+
+<section class="investor-section">
+
+<h2>
+Technology Platform
+</h2>
+
+<img class="investor-visual"
+src="assets/images/technology/ai-ar-architecture.svg"
+alt="AI AR technology architecture">
+
+</section>
+
+
+<section class="investor-section">
+
+<h2>
+Growth Roadmap
+</h2>
+
+<img class="investor-visual"
+src="assets/images/investor/funding-roadmap.svg"
+alt="funding roadmap">
+
+</section>
+
+
+<section class="funding-panel">
+
+<h2>
+Partner With seereference.com
+</h2>
+
+<p>
+Join the development journey through investment,
+technology partnerships, and commercial collaboration.
+</p>
+
+</section>
+
+</main>
+
+
+<div id="footer"></div>
+
+
+<script src="assets/js/main.js"></script>
+
+<script>
+
+fetch("components/header.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("header").innerHTML=data;
+});
+
+
+fetch("components/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML=data;
+});
+
+</script>
+
+</body>
+
+</html>

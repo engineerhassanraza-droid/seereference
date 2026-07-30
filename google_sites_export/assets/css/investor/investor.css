@@ -1,0 +1,44 @@
+/* seereference.com Investor Presentation Layer */
+
+.investor-hero {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.investor-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.investor-hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.investor-section {
+    padding: 60px 40px;
+}
+
+.investor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.investor-card {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.investor-visual {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    display: block;
+}
+
+.funding-panel {
+    padding: 50px;
+    text-align: center;
+}
