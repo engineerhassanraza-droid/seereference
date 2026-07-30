@@ -1,4 +1,4 @@
-# SeeReference.com Website
+# seereference.com Website
 
 Static website exported from Google Sites and improved locally.
 
