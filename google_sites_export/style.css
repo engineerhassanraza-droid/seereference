@@ -1,0 +1,44 @@
+/* Investor Visual Sections */
+
+.ecosystem {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.ecosystem-item {
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+
+.investor-roadmap {
+    text-align:center;
+}
+
+
+.roadmap {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+
+.roadmap div {
+    width:220px;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.1);
+}
+
+
+.roadmap span {
+    font-size:2rem;
+    color:#1976d2;
+    font-weight:bold;
+}
