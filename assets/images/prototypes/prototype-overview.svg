@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#0b1220"/>
+<text x="600" y="280" text-anchor="middle"
+font-size="48" fill="white">
+seereference.com Prototype Ecosystem
+</text>
+<text x="600" y="350" text-anchor="middle"
+font-size="28" fill="white">
+AI • AR • Hardware • Software
+</text>
+</svg>

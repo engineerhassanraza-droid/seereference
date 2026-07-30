@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<rect width="900" height="500" fill="#111827"/>
+<rect x="200" y="150" width="500" height="180" rx="20" fill="#334155"/>
+<text x="450" y="240" text-anchor="middle"
+font-size="38" fill="white">
+Software Platform
+</text>
+<text x="450" y="290" text-anchor="middle"
+font-size="24" fill="white">
+Knowledge Infrastructure
+</text>
+</svg>

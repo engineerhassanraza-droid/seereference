@@ -1,0 +1,12 @@
+
+.product-story {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.product-story p {
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+

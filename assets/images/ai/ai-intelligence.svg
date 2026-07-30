@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<rect width="900" height="500" fill="#111827"/>
+<circle cx="450" cy="250" r="120" fill="#334155"/>
+<text x="450" y="245" text-anchor="middle"
+font-size="38" fill="white">
+AI
+</text>
+<text x="450" y="300" text-anchor="middle"
+font-size="24" fill="white">
+Reference Intelligence
+</text>
+</svg>

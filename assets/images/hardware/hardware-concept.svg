@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<rect width="900" height="500" fill="#111827"/>
+<rect x="300" y="120" width="300" height="220" rx="30" fill="#334155"/>
+<text x="450" y="260" text-anchor="middle"
+font-size="36" fill="white">
+Hardware
+</text>
+<text x="450" y="310" text-anchor="middle"
+font-size="24" fill="white">
+Prototype System
+</text>
+</svg>

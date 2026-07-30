@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+seereference.com | Prototype Showcase
+</title>
+
+<meta name="description"
+content="seereference.com prototype showcase featuring hardware, software, AI and augmented reality development.">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
+<link rel="stylesheet"
+href="assets/css/prototypes/prototypes.css">
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+<section class="prototype-hero">
+
+<h1>
+seereference.com Prototype Showcase
+</h1>
+
+<p>
+Exploring the future of AI-assisted engineering,
+digital references, and augmented reality experiences.
+</p>
+
+<img class="prototype-visual"
+src="assets/images/prototypes/prototype-overview.svg"
+alt="seereference.com prototype ecosystem">
+
+</section>
+
+
+
+<section class="product-story">
+
+<h2>
+Building the Future of Digital Reference Intelligence
+</h2>
+
+<p>
+seereference.com combines artificial intelligence,
+augmented reality, and structured knowledge systems
+to create a next-generation reference platform.
+</p>
+
+<p>
+The ecosystem connects physical products,
+engineering data, and intelligent digital experiences
+through scalable hardware and software solutions.
+</p>
+
+</section>
+
+<section class="prototype-grid">
+
+
+<div class="prototype-card">
+
+<img class="prototype-visual"
+src="assets/images/hardware/hardware-concept.svg"
+alt="Hardware prototype concept">
+
+<h2>
+Hardware Innovation
+</h2>
+
+<p>
+Physical prototypes and engineering concepts connecting
+the digital and physical world.
+</p>
+
+</div>
+
+
+<div class="prototype-card">
+
+<img class="prototype-visual"
+src="assets/images/ai/ai-intelligence.svg"
+alt="AI intelligence system">
+
+<h2>
+AI Intelligence Layer
+</h2>
+
+<p>
+Artificial intelligence systems designed to analyse,
+organise, and deliver trusted reference information.
+</p>
+
+</div>
+
+
+<div class="prototype-card">
+
+<img class="prototype-visual"
+src="assets/images/ar/ar-experience.svg"
+alt="Augmented reality experience">
+
+<h2>
+AR Experience Layer
+</h2>
+
+<p>
+Augmented reality interfaces that bring digital
+information into real-world environments.
+</p>
+
+</div>
+
+
+<div class="prototype-card">
+
+<img class="prototype-visual"
+src="assets/images/software/software-platform.svg"
+alt="Software platform">
+
+<h2>
+Software Platform
+</h2>
+
+<p>
+Scalable software infrastructure supporting the
+seereference.com ecosystem.
+</p>
+
+</div>
+
+
+</section>
+
+
+<section class="prototype-roadmap">
+
+<h2>
+Future Development Roadmap
+</h2>
+
+<p>
+Prototype development → MVP → Commercial platform.
+</p>
+
+</section>
+
+
+</main>
+
+
+<div id="footer"></div>
+
+
+<script src="assets/js/main.js"></script>
+
+<script>
+
+fetch("components/header.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("header").innerHTML=data;
+});
+
+
+fetch("components/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML=data;
+});
+
+</script>
+
+
+</body>
+
+</html>
