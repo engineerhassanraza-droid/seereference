@@ -1,0 +1,14 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="800" height="500" fill="#0f3d91"/>
+
+<circle cx="400" cy="250" r="120" fill="#1976d2"/>
+
+<text x="200" y="270"
+font-size="50"
+fill="white"
+font-family="Arial">
+AI ENGINEERING
+</text>
+
+</svg>
