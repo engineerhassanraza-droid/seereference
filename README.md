@@ -1,14 +1,29 @@
-# seereference.com Website
+# seereference.com
 
-Static website exported from Google Sites and improved locally.
+AI-assisted engineering ecosystem website.
 
 ## Structure
 
-- index.html - homepage
-- pages/ - internal pages
-- assets/css - stylesheets
-- assets/images - logos and icons
+- index.html - Homepage
+- pages/ - Website pages
+- assets/ - CSS and images
+- components/ - Shared website components
 
-## Run locally
+## Local Testing
+
+Run:
 
 python3 -m http.server 8000
+
+Open:
+
+http://localhost:8000
+
+## Deployment
+
+This website is a static HTML/CSS website and can be deployed using:
+
+- GitHub Pages
+- Cloudflare Pages
+- Netlify
+- Any static web hosting service
