@@ -3,3 +3,7 @@
 __pycache__/
 .vscode/
 .idea/
+
+# Local backup folders
+google_sites_export_backup_*/
+google_sites_export_before_*/
