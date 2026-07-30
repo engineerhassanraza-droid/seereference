@@ -1,444 +1,213 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>seereference.com</title>
-  <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <title>seereference.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SeeReference | Augmented Reality Reference Platform</title>
+
+<meta name="description" content="SeeReference is developing an augmented reality platform that connects digital information with the physical world through accessible, privacy-conscious technology.">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f8fafc;
+color:#1f2937;
+line-height:1.6;
+}
+
+header{
+background:#fff;
+border-bottom:1px solid #e5e7eb;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#0f62fe;
+}
+
+nav ul{
+display:flex;
+gap:24px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav a{
+text-decoration:none;
+color:#374151;
+font-weight:600;
+}
+
+.button{
+display:inline-block;
+padding:12px 24px;
+border-radius:6px;
+text-decoration:none;
+background:#0f62fe;
+color:white;
+margin-right:10px;
+}
+
+.button.secondary{
+background:white;
+color:#0f62fe;
+border:2px solid #0f62fe;
+}
+
+.hero{
+padding:90px 0;
+background:white;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+color:#4b5563;
+}
+
+.hero-card{
+background:#eef5ff;
+padding:40px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.badge{
+display:inline-block;
+padding:8px 14px;
+background:#dbeafe;
+color:#0f62fe;
+border-radius:20px;
+font-size:14px;
+margin-bottom:20px;
+}
+
+@media(max-width:900px){
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:38px;
+}
+}
+</style>
 </head>
+
 <body>
-<header class="site-header">
 
-<div class="logo">
+<header>
 
-<img src="seereference_logo.svg"
-     alt="seereference.com Logo"
-     width="320">
+<div class="container">
 
-</div>
+<nav>
 
-</header>
-<section class="hero">
-
-<div class="hero-content">
-
-<h1>Engineering the Future with AI</h1>
-
-<p>
-seereference.com is an AI-assisted engineering ecosystem dedicated to
-research, prototype development, intelligent technologies, and strategic
-collaboration.
-</p>
-
-<div class="hero-buttons">
-
-<a href="about.html" class="button">Learn More</a>
-
-<a href="roadmap.html" class="button">Project Roadmap</a>
-
-<a href="funding.html" class="button">Funding</a>
-
-</div>
-
-</div>
-
-</section>
-<section class="mission">
-
-<h2>Our Mission</h2>
-
-<p>
-seereference.com is building an AI-assisted engineering ecosystem that
-supports research, prototype development, technology innovation, and
-future collaboration across multiple engineering disciplines.
-</p>
-
-<div class="mission-grid">
-
-<div class="mission-card">
-<h3>Research</h3>
-<p>Explore new technologies through structured research and validation.</p>
-</div>
-
-<div class="mission-card">
-<h3>Engineering</h3>
-<p>Design and develop practical prototypes using modern engineering methods.</p>
-</div>
-
-<div class="mission-card">
-<h3>Innovation</h3>
-<p>Combine AI, software, and hardware to create future technology solutions.</p>
-</div>
-
-<div class="mission-card">
-<h3>Collaboration</h3>
-<p>Work with researchers, universities, industry, and strategic partners.</p>
-</div>
-
-</div>
-
-</section>
-<section class="technology">
-
-<h2>Technology Development Areas</h2>
-
-<p>
-seereference.com explores advanced engineering technologies
-through AI-assisted development, research, and prototype creation.
-</p>
-
-<div class="cards">
-
-<div class="card">
-<h3>AI Engineering Systems</h3>
-<p>
-Intelligent tools designed to support engineering workflows,
-analysis, design, and problem solving.
-</p>
-</div>
-
-<div class="card">
-<h3>Digital Reference Platforms</h3>
-<p>
-Organised knowledge and reference systems for future
-technology development and innovation.
-</p>
-</div>
-
-<div class="card">
-<h3>Prototype Development</h3>
-<p>
-Research-driven prototypes combining software,
-hardware, and emerging technologies.
-</p>
-</div>
-
-<div class="card">
-<h3>Future Technology Ecosystem</h3>
-<p>
-A long-term platform connecting AI, engineering,
-research, and collaboration.
-</p>
-</div>
-
-</div>
-
-</section>
-<section class="roadmap">
-
-<h2>Project Roadmap</h2>
-
-<div class="timeline">
-
-<div class="timeline-step">
-<h3>Phase 1</h3>
-<p>Research & Vision</p>
-</div>
-
-<div class="timeline-step">
-<h3>Phase 2</h3>
-<p>System Architecture</p>
-</div>
-
-<div class="timeline-step">
-<h3>Phase 3</h3>
-<p>Prototype Development</p>
-</div>
-
-<div class="timeline-step">
-<h3>Phase 4</h3>
-<p>Testing & Validation</p>
-</div>
-
-<div class="timeline-step">
-<h3>Phase 5</h3>
-<p>Funding & Partnerships</p>
-</div>
-
-<div class="timeline-step">
-<h3>Phase 6</h3>
-<p>Future Growth</p>
-</div>
-
-</div>
-
-</section>
-<section class="funding">
-
-<h2>Funding and Partnership Opportunity</h2>
-
-<p>
-seereference.com is seeking funding and strategic partnerships
-to support long-term technology research, engineering development,
-and prototype creation.
-</p>
-
-<div class="card">
-
-<h3>Funding Target</h3>
-
-<p>
-$300,000–$1,500,000 USD
-</p>
-
-</div>
-
-<div class="cards">
-
-<div class="card">
-<h3>AI and Software Development</h3>
-<p>
-Development of AI-assisted engineering systems,
-software platforms, and intelligent tools.
-</p>
-</div>
-
-<div class="card">
-<h3>Prototype Engineering</h3>
-<p>
-Design, development, and validation of future
-technology prototypes.
-</p>
-</div>
-
-<div class="card">
-<h3>Hardware Testing</h3>
-<p>
-Testing and integration of hardware components,
-devices, and engineering systems.
-</p>
-</div>
-
-<div class="card">
-<h3>Research Activities</h3>
-<p>
-Technical research, feasibility studies,
-and innovation development.
-</p>
-</div>
-
-<div class="card">
-<h3>Project Operations</h3>
-<p>
-Supporting project management, documentation,
-and development infrastructure.
-</p>
-</div>
-
-</div>
-
-<h3>Partnership Opportunities</h3>
-
-<p>
-seereference.com welcomes collaboration with:
-</p>
+<div class="logo">SeeReference</div>
 
 <ul>
-<li>Technology organisations</li>
-<li>Research partners</li>
-<li>Engineering teams</li>
-<li>Investors and strategic partners</li>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="design.html">Design</a></li>
+<li><a href="roadmap.html">Roadmap</a></li>
+<li><a href="funding.html">Funding</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 
-<h3>Investor Contact Pathway</h3>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-grid">
+
+<div>
+
+<div class="badge">
+Innovating the Future of Augmented Reality
+</div>
+
+<h1>
+Digital information where you need it most.
+</h1>
 
 <p>
-Interested investors and partners can connect through
-the official seereference.com contact channel for
-future discussions and collaboration opportunities.
+SeeReference is building an augmented reality platform that connects digital knowledge with the physical world through intuitive, accessible, and privacy-conscious experiences.
 </p>
+
+<p>
+<a class="button" href="products.html">Explore the Project</a>
+
+<a class="button secondary" href="funding.html">Investor Information</a>
+</p>
+
+</div>
+
+<div class="hero-card">
+
+<h2>Project Vision</h2>
+
+<p>
+Create a next-generation augmented reality ecosystem that empowers people to understand and interact with their surroundings using intelligent visual references.
+</p>
+
+<p><strong>Current Stage:</strong> Research &amp; Prototype Development</p>
+
+<p><strong>Goal:</strong> Secure funding and strategic partnerships.</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
-<nav>
-<a href="index.html">Home</a>
-<a href="vision.html">Vision</a>
-<a href="products.html">Products</a>
-<a href="roadmap.html">Roadmap</a>
-<a href="progress.html">Progress</a>
-<a href="funding.html">Funding</a>
-<a href="contact.html">Contact</a>
-</nav>
-<header id="title-block-header">
-<h1 class="title">seereference.com</h1>
-</header>
-<h1 id="engineering-the-future-with-ai">Engineering the Future with
-AI</h1>
-<p>Welcome to <strong>seereference.com</strong>.</p>
-<p>An AI-assisted engineering ecosystem focused on research, prototype
-development, and future technology.</p>
-<h2 id="our-mission">Our Mission</h2>
-<p>To build innovative AI-assisted engineering solutions through
-research, design, and collaboration.</p>
-<footer class="site-footer">
 
-<hr>
-
-<p><strong>seereference.com</strong></p>
-
-<p>
-AI-Assisted Engineering Ecosystem
-</p>
-
-<p>
-Research • Innovation • Partnerships • Future Technology
-</p>
-
-<p>
-© 2026 seereference.com. All rights reserved.
-</p>
-
-</footer>
 </body>
 </html>
